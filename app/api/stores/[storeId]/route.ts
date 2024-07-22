@@ -2,7 +2,6 @@ import { NextResponse } from "next/server";
 import { auth } from "@clerk/nextjs";
 
 import supabase from "@/lib/supabase";
-import { log } from "console";
 
 export async function POST(req: Request) {
   try {
